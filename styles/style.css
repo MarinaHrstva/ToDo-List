@@ -1,0 +1,16 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+@import url(./name-div.css);
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right, #c5f559, #00d68d, #00abbb, #0079be, #11438e);
+    overflow: hidden;
+}
+
