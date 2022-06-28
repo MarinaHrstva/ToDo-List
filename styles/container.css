@@ -76,6 +76,7 @@
 }
 
 .container .list p {
+    text-align: center;
     color: white;
     font-size: 20px;
     letter-spacing: 2px;
@@ -92,7 +93,6 @@
     font-size: 18px;
     letter-spacing: 2px;
     transition: all 0.5s ease;
-
 }
 
 .btnsContainer {
@@ -127,4 +127,7 @@
 }
 
 
-.
+.deleted{
+    transform: translateX(6rem);
+     opacity:0.1;
+}

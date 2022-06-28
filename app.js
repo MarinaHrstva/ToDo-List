@@ -29,7 +29,7 @@ addTaskBtnElement.addEventListener('click', (e) => {
     addTaskInputElement.value = '';
 })
 
-listElement.addEventListener('click', done)
+listElement.addEventListener('click', doneDelete)
 
 
 
@@ -50,12 +50,17 @@ function start(e) {
 }
 
 
-function done(e) {
+function doneDelete(e) {
     const button = e.target
+    const toDoLi = button.parentNode.parentNode;
+
     if (button.textContent == 'Delete') {
-        button.parentNode.parentNode.classList.toggle('delete');
+            toDoLi.classList.toggle('deleted');
+            toDoLi.addEventListener('transitionend',()=>{
+                toDoLi.remove()
+            })
     } else if (e.target.textContent == 'Done') {
-        button.parentNode.parentNode.classList.toggle('done');
+        toDoLi.classList.toggle('done');
     }
 }
 
