@@ -1,6 +1,7 @@
 @import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 @import url(./name-div.css);
-
+@import url(./container.css);
 
 * {
     box-sizing: border-box;
@@ -12,6 +13,7 @@ body {
     height: 100vh;
     background-image: linear-gradient(to right, #c5f559, #00d68d, #00abbb, #0079be, #11438e);
     overflow: hidden;
+    font-family: Roboto, sans-serif;
 }
 
 .hidden{

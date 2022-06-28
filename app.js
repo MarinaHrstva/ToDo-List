@@ -3,8 +3,13 @@ const okBtnElement = document.getElementById('okBtn');
 const nameElement = document.getElementById('nameInput');
 const nameDivElement = document.querySelector('.name');
 const addTaskElement = document.querySelector('.addTask');
-const listElement = document.querySelector('.list');
+const addTaskInputElement=document.querySelector('.addTask input')
+console.log(addTaskInputElement);
+const addTaskBtnElement=document.querySelector('#addTaskBtn');
+
 const spanNameElement = document.getElementById('nameSpan');
+const listElement = document.querySelector('.list');
+
 let name = ''
 
 // Events
