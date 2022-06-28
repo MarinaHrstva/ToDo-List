@@ -16,6 +16,9 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+body ul{
+    list-style: none;
+}
 .hidden{
     display: none;
 }
